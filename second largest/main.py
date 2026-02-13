@@ -1,0 +1,5 @@
+n=input("enter the list").split()
+a=max(n ,key=len)
+n.remove(a)
+b=max(n ,key=len)
+print(b)
